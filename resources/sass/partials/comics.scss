@@ -1,0 +1,36 @@
+@import 'partials/variables.scss';
+
+.comics_container {
+    height: 850px;
+    background-color: $darkGrey;
+
+    h3 {
+        text-transform: uppercase;
+        width: 86%;
+        margin-top: 5px;
+        font-size: 15px;
+        color: white;
+    }
+
+    .container_70 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 50px 0;
+
+        .comic {
+            width: calc(100% / 6);
+            margin-bottom: 20px;
+        }
+    }
+
+    button {
+        font-size: 15px;
+        text-transform: uppercase;
+        margin-top: 20px;
+        padding: 10px 50px;
+        background-color: $bgBlue;
+        color: white;
+    }
+}
+

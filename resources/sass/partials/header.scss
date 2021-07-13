@@ -1,0 +1,40 @@
+@import 'partials/variables.scss'; 
+.top_header {
+    background-color: $bgBlue;
+    
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        a {
+            margin: 5px 20px;
+            color: white;
+        }
+    }
+}
+nav {
+    height: 100px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+
+    img {
+        width: 80px;
+    }
+
+    .menu {
+        display: flex;
+        
+        a {
+            margin: 0 20px;
+            color: $darkGrey;
+        }
+    }
+}
+
+.jumbotron {
+    height: 400px;
+    background-image: url('../../../public/images/jumbotron.jpg');
+}
