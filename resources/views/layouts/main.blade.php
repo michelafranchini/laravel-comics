@@ -12,6 +12,9 @@
 
         <main>
             @include('partials/comics')
+            @include('partials/bannershop')
         </main>
+
+        @include ('partials/footer')
     </body>
 </html>

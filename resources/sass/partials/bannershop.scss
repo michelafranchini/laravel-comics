@@ -1,0 +1,33 @@
+@import 'partials/variables.scss'; 
+
+.banner_shop {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    background-color: $bgBlue;
+
+    .container_70 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+
+    img {
+      height: 60px;
+    }
+
+    h4 {
+      margin: 10px;
+      text-transform: uppercase;
+      color: white;
+    }
+
+    #svg {
+        width: 65px;
+    }
+  
+}
