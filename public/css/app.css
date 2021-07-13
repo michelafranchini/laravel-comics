@@ -135,6 +135,7 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  height: 370px;
 }
 
 .footer_left {
