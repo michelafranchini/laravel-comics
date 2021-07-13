@@ -42,7 +42,7 @@ nav {
 }
 
 .comics_container {
-  height: 850px;
+  height: 900px;
   background-color: #1c1c1c;
 }
 
@@ -69,7 +69,6 @@ nav {
 .comics_container button {
   font-size: 15px;
   text-transform: uppercase;
-  margin-top: 20px;
   padding: 10px 50px;
   background-color: #0282f9;
   color: white;
@@ -106,21 +105,21 @@ nav {
   width: 65px;
 }
 
-.container_70 {
+.top_footer {
   position: relative;
 }
 
-.container_70 li {
+.top_footer li {
   font-size: 13px;
   color: #797979;
 }
 
-.container_70 h3 {
+.top_footer h3 {
   text-transform: uppercase;
   margin: 10px 0 10px 0;
 }
 
-.container_70 .big_logo {
+.top_footer .big_logo {
   height: 500px;
   position: absolute;
   right: 0px;
@@ -164,6 +163,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .footer_banner .container_70 div {

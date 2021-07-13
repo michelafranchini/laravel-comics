@@ -1,6 +1,6 @@
 @import 'partials/variables.scss'; 
 
-.container_70 {
+.top_footer {
     position: relative;
 
     li {
@@ -57,6 +57,7 @@ footer  {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: relative;
 
         div {
             display: flex;

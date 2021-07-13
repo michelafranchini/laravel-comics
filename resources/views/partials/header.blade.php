@@ -1,7 +1,7 @@
 <header>
     {{-- blocco blu top header --}}
     <div class="top_header">
-        <div class="container_70">
+        <div class="container_70 ">
             <ul class="list_inline">
                 <a href=""><li>dc power visa &#174;</li></a>
                 <a href=""><li>additional dc sites</li></a>

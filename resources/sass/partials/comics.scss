@@ -1,7 +1,7 @@
 @import 'partials/variables.scss';
 
 .comics_container {
-    height: 850px;
+    height: 900px;
     background-color: $darkGrey;
 
     h3 {
@@ -27,7 +27,6 @@
     button {
         font-size: 15px;
         text-transform: uppercase;
-        margin-top: 20px;
         padding: 10px 50px;
         background-color: $bgBlue;
         color: white;
